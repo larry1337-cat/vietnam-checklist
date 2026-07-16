@@ -813,11 +813,20 @@ const isVisited = (id: string) => {
   cursor: pointer;
 }
 
-.province-path:hover,
+.province-path:hover {
+  fill: var(--color-accent);
+  stroke-opacity: 1;
+  opacity: 0.5;
+}
+
 .province-path.visited {
   fill: var(--color-accent);
   stroke-opacity: 1;
   opacity: 0.9;
+}
+
+.province-path.visited:hover {
+  opacity: 0.75;
 }
 
 #hoangsa,
