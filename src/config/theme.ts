@@ -7,6 +7,8 @@ export const ACCENT_COLORS = [
   '#5a3825',
   '#1e6f6b',
   '#5b3a6e',
+  '#ffffff',
+  '#000000',
 ]
 
 export interface ModePalette {
